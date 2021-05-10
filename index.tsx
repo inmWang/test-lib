@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { View, Text } from '@tarojs/components'
-import {getConsole} from '@/utils'
-import './index.less'
+// import {getConsole} from '@/utils'
+// import './index.less'
 
 export default class Index extends Component {
 
   componentWillMount () {
-    getConsole()
+    // getConsole()
+    console.log('123')
   }
 
   componentDidMount () { }
