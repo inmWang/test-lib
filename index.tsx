@@ -8,6 +8,7 @@ export default class Index extends Component {
   componentWillMount () {
     // getConsole()
     console.log('123')
+    console.log('i edit');
   }
 
   componentDidMount () { }
